@@ -26,6 +26,7 @@
   <ItemGroup>
     <ClInclude Include="Cards.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\Cards.csv" />

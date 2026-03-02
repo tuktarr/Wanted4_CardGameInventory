@@ -1,5 +1,6 @@
 #pragma once
-#include <vector>
+#include <string>
+
 class Cards
 {
 public:
@@ -7,13 +8,13 @@ public:
 	~Cards();
 
 public:
-	void SetData(int _id, const char* _name, const char* _type, int _cost, int _rarity);
+	void SetData(int _id, const std::string& _name, const std::string& _type, int _cost, int _rarity);
 	void ShowInfo();
 
 private:
 	int id;
-	char name[60];
-	char type[30];
+	std::string name;
+	std::string type;
 	int cost;
 	int rarity;
 };
